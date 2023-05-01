@@ -1,0 +1,52 @@
+/* For Phone */
+
+@media(max-width:767px) {
+    .start-learning {
+        height: 262px;
+    }
+
+    .grid-learn {
+        height: 184px;
+        margin-top: 50px;
+    }
+
+    .learning-text h1 {
+        font-size: 20px;
+
+    }
+
+    .learning-text p {
+        font-size: 12px;
+    }
+}
+
+
+/* For Tab */
+
+@media(min-width:768px) and (max-width:1023px) {
+    .start-learning {
+        height: 400px;
+    }
+
+    .grid-learn {
+        width: 573px;
+        height: 239px;
+        margin-top: 50px;
+    }
+}
+
+
+/* For Laptop */
+
+@media(min-width:1024px) {
+
+    .start-learning {
+        height: 700px;
+    }
+
+    .grid-learn {
+        width: 671px;
+        height: 336px;
+        margin-top: 150px;
+    }
+}

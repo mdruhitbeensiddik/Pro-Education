@@ -18,7 +18,50 @@
     .learning-text p {
         font-size: 12px;
     }
+
+    .flex-div {
+        width: 305px;
+        height: 109px;
+    }
+
+    .courses {}
+
+    .course-image {
+        width: 335px;
+        height: 224px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .course-text {
+        width: 335px;
+        height: 178px;
+        margin-left: 20px;
+
+    }
+
+    .course-text h2 {
+        font-size: 16px;
+    }
+
+    .course-text p {
+        font-size: 12px;
+    }
+
+    .popular-corces-overview h1 {
+        font-size: 18px;
+
+    }
+
+    .popular-corces-overview p {
+        font-size: 12px;
+
+    }
+
 }
+
+
 
 
 /* For Tab */
@@ -33,6 +76,25 @@
         height: 239px;
         margin-top: 50px;
     }
+
+    .flex-div {
+        width: 614px;
+        height: 115px;
+    }
+
+    .courses {
+
+        display: flex;
+        width: 648px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .course-text {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
 }
 
 
@@ -49,4 +111,54 @@
         height: 336px;
         margin-top: 150px;
     }
+
+    .flex-div {
+        width: 606px;
+        height: 190px;
+    }
+
+    .courses {
+
+        display: flex;
+        width: 648px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .course-text {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .all-courses {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .working img {
+        height: 806px;
+        width: 600px;
+    }
+
+    .background-color {
+        display: flex;
+        height: 806px;
+        width: 100%;
+        background-color: #F4FAFD;
+        ;
+
+    }
+
+    .review {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .working-text {
+        margin-top: 200px;
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+
 }
